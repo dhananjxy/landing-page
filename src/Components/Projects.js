@@ -5,17 +5,25 @@ import Fade from "react-reveal/Fade";
 function Projects() {
   return (
     <>
+<<<<<<< HEAD
       <div className="bg-[#110617] pt-14   lg:px-28 px-10 pb-10" id="projects">
+=======
+      <div className="bg-[#231E3D] pt-14   lg:px-28 px-10 pb-10" id="projects">
+>>>>>>> 1ff7471f416cc6dbe99184b8695bfa25c0578d5e
         <div className="grid lg:grid-cols-2 grid-cols-1 xl:gap-[51rem] lg:gap-[31rem]">
           <Fade bottom cascade>
           <div>
             <div className="w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r"></div>
             <h1 className="font-semibold text-white text-2xl pt-3">
+<<<<<<< HEAD
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0]">
                 {" "}
                 Featured Projects{" "}
               </span>
               
+=======
+              Featured Projects
+>>>>>>> 1ff7471f416cc6dbe99184b8695bfa25c0578d5e
             </h1>
             <p className="text-[#696984] pt-4 lg:w-[400px] pb-5">
               Trusted by 5000+ companies worldwide.

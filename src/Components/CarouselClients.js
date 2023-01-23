@@ -6,7 +6,11 @@ import { Carousel } from "react-responsive-carousel";
 
 function CarouselClients() {
   return (
+<<<<<<< HEAD
     <div className="pt-10 bg-[#16081c]">
+=======
+    <div className="pt-10 bg-[#231E3D]">
+>>>>>>> 1ff7471f416cc6dbe99184b8695bfa25c0578d5e
       <Carousel>
         <div className="grid lg:grid-cols-2 gap-10">
           <img src="https://zesty-cajeta-af510d.netlify.app/image-33.svg" />

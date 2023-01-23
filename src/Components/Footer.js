@@ -8,7 +8,11 @@ import Fade from "react-reveal/Fade";
 
 function Footer() {
   return (
+<<<<<<< HEAD
     <div className="bg-[#16081c]   lg:px-28 pt-14 px-10 pb-10">
+=======
+    <div className="bg-[#211D32]   lg:px-28 pt-14 px-10 pb-10">
+>>>>>>> 1ff7471f416cc6dbe99184b8695bfa25c0578d5e
       <Fade bottom cascade>
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20">
           <div>
