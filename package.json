@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
   "homepage":"http://dhananjxy.github.io/landing-page",
   "name": "landing-page",
-=======
-  "homepage":"http://metablockreact.github.io/landing-page",
-  "name": "landingpage",
->>>>>>> 1ff7471f416cc6dbe99184b8695bfa25c0578d5e
   "version": "0.1.0",
   "private": true,
   "dependencies": {

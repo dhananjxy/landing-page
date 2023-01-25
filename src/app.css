@@ -101,7 +101,6 @@
     top: 7%;
   }
 }
-<<<<<<< HEAD
 .neonText {
   text-shadow:
       0 0 2px rgb(212, 212, 212),
@@ -113,5 +112,13 @@
       0 0 2px rgb(255, 255, 255),
       0 0 2px rgb(247, 249, 248);
 }
-=======
->>>>>>> 1ff7471f416cc6dbe99184b8695bfa25c0578d5e
+
+#tsparticles {
+  position: absolute;
+  z-index: 0;
+  height:100%;
+  width: 100%;
+  top:0;
+  left:0;
+
+}

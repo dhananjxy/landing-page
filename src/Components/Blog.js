@@ -3,7 +3,6 @@ import Fade from "react-reveal/Fade";
 
 function Blog() {
   return (
-<<<<<<< HEAD
     <div className="bg-[#110617] pt-14   lg:px-28 px-10 pb-10">
       <Fade bottom cascade>
         <h1 className="text-center text-white text-3xl">
@@ -12,12 +11,6 @@ function Blog() {
                 Latest From Our Blog{" "}
               </span>
           
-=======
-    <div className="bg-[#231E3D] pt-14   lg:px-28 px-10 pb-10">
-      <Fade bottom cascade>
-        <h1 className="text-center text-white text-3xl">
-          Latest From Our Blog
->>>>>>> 1ff7471f416cc6dbe99184b8695bfa25c0578d5e
         </h1>
         <p className="text-[#696984] pt-3 text-center pb-14">
           Trusted by 5000+ companies worldwide.

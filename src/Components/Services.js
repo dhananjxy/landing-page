@@ -3,7 +3,6 @@ import Fade from "react-reveal/Fade";
 
 function Services() {
   return (
-<<<<<<< HEAD
     <div className="bg-[#16081c] z-10 pt-14   lg:px-28 px-10 pb-10" id="services">
       <Fade bottom cascade>
         <div className="w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r"></div>
@@ -11,12 +10,6 @@ function Services() {
                 {" "}
               Our Services{" "}
               </span></h1>
-=======
-    <div className="bg-[#231E3D] pt-14   lg:px-28 px-10 pb-10" id="services">
-      <Fade bottom cascade>
-        <div className="w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r"></div>
-        <h1 className="text-white text-4xl font-semibold pt-3">Our Services</h1>
->>>>>>> 1ff7471f416cc6dbe99184b8695bfa25c0578d5e
         <p className="text-[#696984] font-semibold pt-4 whitespace-nowrap">
           Trusted by 5000+ Companies Worldwide
         </p>

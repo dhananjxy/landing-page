@@ -6,11 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 
 function CarouselDemo() {
   return (
-<<<<<<< HEAD
     <div className="w-full pt-10 bg-[#110617]">
-=======
-    <div className="w-full pt-10 bg-[#231E3D]">
->>>>>>> 1ff7471f416cc6dbe99184b8695bfa25c0578d5e
       <Carousel className="carousel">
         <div className="grid lg:grid-cols-3 gap-4">
           <img

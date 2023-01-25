@@ -3,11 +3,7 @@ import Fade from "react-reveal/Fade";
 
 function Vision() {
   return (
-<<<<<<< HEAD
     <div className="bg-[#16081c] lg:px-28 pt-14 px-10 pb-10" id="about">
-=======
-    <div className="bg-[#211D32] lg:px-28 pt-14 px-10 pb-10" id="about">
->>>>>>> 1ff7471f416cc6dbe99184b8695bfa25c0578d5e
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <Fade bottom cascade>
           <div>
@@ -19,14 +15,10 @@ function Vision() {
           <div>
             <div className="w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r"></div>
             <h1 className="pt-4 font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]">
-<<<<<<< HEAD
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0]">
                 {" "}
                 Our Vision{" "}
               </span>
-=======
-              Our Vision
->>>>>>> 1ff7471f416cc6dbe99184b8695bfa25c0578d5e
             </h1>
             <p className="text-[#696984] pt-5 pb-5 lg:w-[500px]">
             Our vision is to make blockchain technology accessible to the masses. We strive to create a decentralized platform and ecosystem that is secure, transparent, and efficient.

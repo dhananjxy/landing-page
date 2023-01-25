@@ -3,11 +3,7 @@ import Fade from "react-reveal/Fade";
 
 function Companies() {
   return (
-<<<<<<< HEAD
     <div className="z-50 lg:h-[200px] from-[#110617] to-[#16081c] bg-gradient-to-r lg:px-28 px-10 pb-10">
-=======
-    <div className="lg:h-[200px] from-[#1E1732] to-[#211935] bg-gradient-to-r lg:px-28 px-10 pb-10">
->>>>>>> 1ff7471f416cc6dbe99184b8695bfa25c0578d5e
       <Fade bottom cascade>
         <p className="text-[#696984] font-semibold text-center lg:pt-12 pt-6 whitespace-nowrap">
           Trusted by 5000+ Companies Worldwide

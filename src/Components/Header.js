@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Fade from "react-reveal/Fade";
-<<<<<<< HEAD
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
+
 
 function Header() {
 
@@ -17,22 +17,22 @@ function Header() {
   };
 
   return (
-    <div className="-z-10 from-[#16081c] to-[#110617] bg-gradient-to-b w-full  px-10 lg:px-28 lg:h-screen overflow-hidden">
-       
-      <Navbar className="z-50" />
-      <div className="lg:flex lg:pt-8">
-      <Particles className="-z-10"
+    <div className=" from-[#16081c] to-[#110617] bg-gradient-to-b w-full  px-10 lg:px-28 lg:h-screen overflow-hidden">
+       <Particles 
             id="tsparticles"
             init={particlesInit}
+            canvasClassName="h-px"
             options={{
-              fullScreen: {
-                zIndex:0,
-                enable: true,
-              },
+              
                 background: {
                     color: {
                         value: "##",
                     },
+                },
+                fullScreen: {
+                  zIndex:0,
+                  enable:false,
+
                 },
                 fpsLimit: 30,
                 interactivity: {
@@ -101,20 +101,11 @@ function Header() {
                 detectRetina: true,
             }}
         />
-        <Fade left cascade>
-          <div className="lg:w-[800px] container  xl:pt-24 lg:pt-10 pt-20">
-            <h1 className="neonText font-[1000] xl:text-[4.2rem] lg:text-[3rem] md:text-[3.2rem] text-3xl lg:w-[79%] text-white xl:leading-[5rem] md:leading-[4rem]">
-=======
-
-function Header() {
-  return (
-    <div className="from-[#2B263F] to-[#231E3D] bg-gradient-to-b w-full  px-10 lg:px-28 lg:h-screen overflow-hidden">
       <Navbar className="z-50" />
       <div className="lg:flex lg:pt-8">
         <Fade left cascade>
           <div className="lg:w-[800px] container  xl:pt-24 lg:pt-10 pt-20">
-            <h1 className="font-[1000] xl:text-[4.2rem] lg:text-[3rem] md:text-[3.2rem] text-3xl lg:w-[79%] text-white xl:leading-[5rem] md:leading-[4rem]">
->>>>>>> 1ff7471f416cc6dbe99184b8695bfa25c0578d5e
+            <h1 className="neonText font-[1000] xl:text-[4.2rem] lg:text-[3rem] md:text-[3.2rem] text-3xl lg:w-[79%] text-white xl:leading-[5rem] md:leading-[4rem]">
             Make the decentralized web a{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0]">
                 {" "}
