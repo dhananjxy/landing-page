@@ -9,7 +9,7 @@ const Faq = () => {
                 Frequently Asked Questions(FAQs){" "}
               </span>
             </h1> 
-            <section className="bg-[#16081c] px-20">
+            <section className="bg-[#110617] px-20">
     <div className="container px-6 py-12 mx-auto">
         <div className="grid grid-cols-1 gap-8 mt-8 lg:mt-16 md:grid-cols-2 xl:grid-cols-3">
             <div>

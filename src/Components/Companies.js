@@ -6,33 +6,16 @@ function Companies() {
     <div className="z-50 lg:h-[200px] from-[#110617] to-[#16081c] bg-gradient-to-r lg:px-28 px-10 pb-10">
       <Fade bottom cascade>
         <p className="text-[#696984] font-semibold text-center lg:pt-12 pt-6 whitespace-nowrap">
-          Trusted by 5000+ Companies Worldwide
+          Connect with us on our varrious media platforms
         </p>
         <div className="lg:flex justify-evenly pt-10 grid grid-cols-2 md:grid-cols-3 gap-10">
-          <img
-            src="https://zesty-cajeta-af510d.netlify.app/Vector.svg"
-            alt="Netflix"
-          />
-          <img
-            src="https://zesty-cajeta-af510d.netlify.app/google-2015.svg"
-            alt="Google"
-          />
-          <img
-            src="https://zesty-cajeta-af510d.netlify.app/amazon.svg"
-            alt="Amazon"
-          />
-          <img
-            src="https://zesty-cajeta-af510d.netlify.app/airbnb.svg"
-            alt="Air BNB"
-          />
-          <img
-            src="https://zesty-cajeta-af510d.netlify.app/grab-logo.svg"
-            alt="Grab"
-          />
-          <img
-            src="https://zesty-cajeta-af510d.netlify.app/facebook.svg"
-            alt="Facebook"
-          />
+        <img src="https://img.icons8.com/color/60/null/twitter--v1.png" alt='Twitter'/>
+        <img src="https://img.icons8.com/fluency/60/null/instagram-new.png" alt="Instagram"/>
+        <img src="https://img.icons8.com/color/60/null/discord-logo.png" alt='Discord'/>
+        <img src="https://img.icons8.com/color/60/null/telegram-app--v1.png" alt='Telegram'/>
+        <img src="https://img.icons8.com/color/60/null/youtube-play.png" alt='YouTube'/>
+        <img src="https://img.icons8.com/color/60/null/linkedin-circled--v1.png" alt='LinkedIn'/>
+        <img src="https://img.icons8.com/ios-filled/60/FFFFFF/medium-monogram--v1.png" alt='Medium'/>
         </div>
       </Fade>
     </div>
