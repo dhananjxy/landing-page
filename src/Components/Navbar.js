@@ -6,9 +6,11 @@ import { HashLink } from "react-router-hash-link";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
-  { name: "Projects", href: "#projects", current: false },
-  { name: "Our Services", href: "#services", current: false },
   { name: "About Us", href: "#about", current: false },
+  { name: "DEX", href: "#dex", current: false },
+  { name: "NFT Marketplace", href: "#marketplace", current: false },
+  { name: "Media", href: "/", current: false },
+  { name: "Blog", href: "/", current: false },
 ];
 
 function classNames(...classes) {
@@ -41,7 +43,7 @@ export default function Navbar({ className }) {
               </div>
               <div className=" mx-auto ml-0 flex flex-start w-[80%] sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center pl-0">
-                  <h1 className="font-bold text-white">Brand.</h1>
+                  <h1 className="font-bold text-white">HAAWKS.</h1>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="ml-80 md:ml-[8rem] xl:ml-80 flex space-x-4">
@@ -69,9 +71,9 @@ export default function Navbar({ className }) {
                 <button className="text-white border rounded px-7 py-2 md:px-5 hover:text-white c-btn relative tracking-wider overflow-hidden">
                   <span className="absolute inset-0 bg-gradient-to-br from-[#6664F1] to-[#C94AF0]"></span>
                   <span className="absolute inset-0 flex justify-center items-center">
-                    Contact Us
+                    Connect
                   </span>
-                  Contact Us
+                  Connect
                 </button>
               </div>
             </div>

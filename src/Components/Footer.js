@@ -12,7 +12,7 @@ function Footer() {
       <Fade bottom cascade>
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20">
           <div>
-            <h1 className="text-white font-semibold lg:text-2xl">Brand.</h1>
+            <h1 className="text-white font-semibold lg:text-2xl">HAAWKS.</h1>
             <p className="text-[#7A7893] xl:w-[559px] pt-4">
               We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

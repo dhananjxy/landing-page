@@ -10,6 +10,11 @@ import './app.css'
 import Footer from './Components/Footer';
 import ScrollArrow from './Components/ScrollArrow';
 import Mission from './Components/Mission';
+import Roadmap from './Components/Roadmap';
+import Team from './Components/Team';
+import Faq from './Components/Faq';
+import Dex from './Components/Dex';
+import Marketplace from './Components/Marketplace';
 
 
 
@@ -26,12 +31,17 @@ function App() {
         <Header id="home" />
         <ScrollArrow />
         <Companies id="about" />
-        <Services id="services" />
+        {/*<Services id="services" />*/}
         <Vision />
         <Mission />
-        <Projects id="projects" />
+        <Dex />
+        <Marketplace />
+        <Team />
+        <Roadmap />
+        <Faq />
+       {/* <Projects id="projects" />
         <Clients />
-        <Blog />
+        <Blog />*/}
         <Footer />
     </div>
   );
