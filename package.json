@@ -1,5 +1,5 @@
 {
-  "homepage":"http://dhananjxy.github.io/landing-page",
+  "homepage": "http://dhananjxy.github.io/landing-page",
   "name": "landing-page",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +13,7 @@
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
     "react-js-loader": "^0.1.0",
+    "react-minimal-pie-chart": "^8.4.0",
     "react-responsive-carousel": "^3.2.23",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^6.3.0",
@@ -24,8 +25,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

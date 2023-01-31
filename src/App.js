@@ -15,6 +15,7 @@ import Team from './Components/Team';
 import Faq from './Components/Faq';
 import Dex from './Components/Dex';
 import Marketplace from './Components/Marketplace';
+import Tokenomics from './Components/Tokenomics';
 
 
 
@@ -36,6 +37,7 @@ function App() {
         <Mission />
         <Dex />
         <Marketplace />
+        <Tokenomics />
         <Team />
         <Roadmap />
         <Faq />

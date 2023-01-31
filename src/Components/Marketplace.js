@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 function Marketplace() {
   return (
-    <div className="bg-[#16081c] lg:px-28 pt-14 px-10 pb-10" id="marketplace">
+    <div className="bg-[#110617] lg:px-28 pt-14 px-10 pb-10" id="marketplace">
         <div className="w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r"></div>
         <h1 className="pt-4 font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]">
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0] pb-3">

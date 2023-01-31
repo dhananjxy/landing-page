@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 function Mission() {
 
   return (
-    <div className="bg-[#16081c] lg:px-28 pt-14 px-10 pb-10" id="about">
+    <div className="bg-[#110617] lg:px-28 pt-14 px-10 pb-10" id="about">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <Fade bottom cascade>
           <div>
